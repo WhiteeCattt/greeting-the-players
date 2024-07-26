@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Приветствие игроков - v1.0.0",
+		"description": "Данный аддон приветствует игроков зашедших на ваш сервер!\n\n§fНастройка находится в файле §6index.js§f\n\nСоздатель: §6WhiteeCattt§f\nТелеграм-канал: §6t.me/addons_pe",
+		"uuid": "e887551e-6297-4d38-ba26-5b37b3418858",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3f59bb09-8a2b-4b6e-b061-8b48a40bb53e",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "cd39fdc7-9bb1-4fd3-b631-9d5a82013074",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://t.me/addons_pe"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0"
+		}
+	]
+}
